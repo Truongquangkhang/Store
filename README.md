@@ -102,12 +102,3 @@ A brief description of the layout:
 * `internal/utils` contain util functions
 * `migrations` contains SQL migrations
 * `pkg` holds config, db connection
-
-## Run App
-
-* Golang version: >= 1.19
-* Replace with ssh: `git config --global url."git@git.teko.vn:".insteadOf "https://git.teko.vn/"`
-* Add go private projects: `go env -w GOPRIVATE="go.tekoapis.com/*,rpc.tekoapis.com"`
-* Add config by add `.config.yaml` in the root of the project
-* Run the main app: `go run cmd/main.go server`
-* Run migration: `go run cmd/main.go migrate up`
