@@ -102,3 +102,6 @@ A brief description of the layout:
 * `internal/utils` contain util functions
 * `migrations` contains SQL migrations
 * `pkg` holds config, db connection
+
+### ERD
+![Alt text](image-1.png)
